@@ -1,4 +1,4 @@
-# LARAVEL LOG VIEWER
+# LARAVEL WEB ARTISAN UI/GUI - LIVE SERVER
 
 ### A simple laravel package for artisan commands with user interface.
 
@@ -46,6 +46,7 @@ Ex: http://localhost:8000/onex/artisan-ui
 ## Functionalities / Features
 <dl>
   <dt>>> <code>Run all artisan commands in LIVE server through web user interface (GUI)</span></code></dt>
+  <dt>>> <code>Run all artisan commands in Shared Hosting & Dedicated Hosting</span></code></dt>
 </dl>
 
 #### You can modify the configuration settings in - "config/log-viewer.php":
@@ -80,8 +81,6 @@ Ex: http://localhost:8000/onex/artisan-ui
     'password' => env('ARTISAN_UI_LOGIN_PASSWORD', 'onexpassword')
 ]
 ```
-
-![admin_access](https://user-images.githubusercontent.com/24665327/222919478-474bcc99-bc5b-4414-8d17-6dfa16ef09b1.png)
 
 
 ## license:
