@@ -94,3 +94,7 @@ Ex: http://localhost:8000/onex/artisan-ui
 
 ## license:
 MIT
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Issues
+If have any issue please [write me](https://github.com/dev-arindam-roy/artisan-ui/issues).
