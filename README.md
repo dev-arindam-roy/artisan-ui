@@ -21,7 +21,7 @@ CreativeSyntax\ArtisanUi\CreativeSyntaxArtisanUi::class,
 ### STEP 3: Publish the package config:
 
 ```php
-php artisan vendor:publish --tag="artisan-ui:config
+php artisan vendor:publish --tag="artisan-ui:config"
 ```
 ### - OR - 
 
@@ -57,7 +57,7 @@ Ex: http://localhost:8000/onex/artisan-ui
   <dt>>> <code>Run all artisan commands in Shared Hosting & Dedicated Hosting</span></code></dt>
 </dl>
 
-#### You can modify the configuration settings in - "config/log-viewer.php":
+#### You can modify the configuration settings in - "config/artisan-ui.php":
 
 ```php
 /** If you want to disable the route or this feature, then make it false */
@@ -80,7 +80,7 @@ Ex: http://localhost:8000/onex/artisan-ui
 ```
 
 ```php
-/** If you want to enable the securiry for access the system information
+/** If you want to enable the securiry for access the artisan commands user interface (UI)
  *  Then make it ('is_enabled') true and also you can set login-id and password 
  */
 'authentication' => [

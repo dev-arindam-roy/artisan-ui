@@ -3,7 +3,7 @@
 return [
 
     /**
-     * If you want to disable the route for the log view page
+     * If you want to disable the route for the artisan ui view page
      * 
      * available options: true, false
      * 
@@ -23,7 +23,7 @@ return [
     /**
      * If you want to change the route name
      * 
-     * default: log-viewer
+     * default: artisan-ui
      */
     'route_name' => 'artisan-ui',
 
@@ -42,7 +42,7 @@ return [
 
 
     /**
-     * If you want to use a authentication process access the system information view page
+     * If you want to use a authentication process to access the artisan command interface (UI)
      */
     'authentication' => [
         'is_enabled' => env('ARTISAN_UI_AUTH_ENABLED', false),
